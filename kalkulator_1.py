@@ -8,18 +8,18 @@ a = int(input("Podaj składnik 1: "))
 b = int(input("Podaj składnik 2: "))
 
 if choice == 1:
-  logging.info("Dodaję " + str(a) + " i " + str(b))
+  logging.info("Dodaję: " + str(a) + " i " + str(b))
   result = a + b
   print ("Wynik to " + str(result))
 elif choice == 2:
-  logging.info("Odejmuję " + str(a) + " i " + str(b))
+  logging.info("Odejmuję: " + str(a) + " i " + str(b))
   result = a - b
   print("Wynik to " + str(result))
 elif choice == 3:
-  logging.info("Mnożę " + str(a) + " i " + str(b))
+  logging.info("Mnożę: " + str(a) + " i " + str(b))
   result = a * b
   print("Wynik to " + str(result))
 elif choice == 4:
-  logging.info("Dzielę " + str(a) + " i " + str(b))
+  logging.info("Dzielę: " + str(a) + " i " + str(b))
   result = a / b
   print("Wynik to " + str(result))
